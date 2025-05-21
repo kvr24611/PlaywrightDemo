@@ -1,4 +1,5 @@
 Clone the repository
+
 `git clone https://github.com/kvr24611/PlaywrightDemo.git`
 
 `npm install`
