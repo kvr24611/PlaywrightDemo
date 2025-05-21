@@ -1,0 +1,11 @@
+{
+    "username": "mukesh@gmail.com",
+    "password": "mukesh123",
+    "name": "Mukesh",
+    "interests": ["Cypress", "API", "python"],
+    "gender": "Male",
+    "address": {
+        "city": "Delhi",
+        "country": "India"
+    }
+}
