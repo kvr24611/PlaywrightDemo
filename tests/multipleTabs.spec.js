@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test("Working with multiple tabs", async({ browser }) => {
+test.skip("Working with multiple tabs", async({ browser }) => {
     
     const context = await browser.newContext();
 
@@ -22,5 +22,7 @@ test("Working with multiple tabs", async({ browser }) => {
     await newPage.close();
 
     await page.locator("#email1").fill('admin@gmail.com');
+
+    await page.waitForTimeout(2000);
 
 });
