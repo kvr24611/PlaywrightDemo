@@ -8,7 +8,7 @@ on:
 jobs:
   test:
     # runs-on: ubuntu-latest
-    runs-on: self-hosted
+    runs-on: kvr24611
 
     steps:
       - name: Checkout repository
@@ -26,5 +26,5 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests
-        run: npx playwright test
+        run: npx playwright test --headed
 
