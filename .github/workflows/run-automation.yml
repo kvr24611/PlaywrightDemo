@@ -7,8 +7,8 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
-    # runs-on: kvr24611
+    # runs-on: ubuntu-latest
+    runs-on: kvr24611
 
     steps:
       - name: Checkout repository
